@@ -1,0 +1,7 @@
+source("cachematrix.R")
+eg<-makeCacheMatrix()
+eg$set(matrix(4:1,2,2))
+cacheSolve(eg)
+cacheSolve(eg)
+t<-matrix(4:1,2,2)
+solve(t)
